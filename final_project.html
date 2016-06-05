@@ -3,19 +3,45 @@
  <head>
  <meta charset = "UTF-8">
  <title>Biochemistry</title>
-  <script type="text/javascript" src="JSMolFolder/Jmol.js"></script>
+ 
+  <!-- Latest compiled and minified CSS -->
+ <script src="jquery-2.2.3.min.js"></script>
+ <script src="final.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
  </head>
   <body>
  <h1>The Molecular Biology of Sickle Cell Anemia</h1>
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Assignments</a></li>
+    <li><a href="#">Highlights and Notes</a></li>
+    <li><a href="#">Table of Contents</a></li>
+    <li><a href="#">Glossary</a></li>
+  </ul>
+</div>
+
  <p>In Part I we learned that sickle cell anemia was recognized to be the result of a genetic mutation, inherited according to the Mendelian principle of incomplete dominance. Initially, you will recall, it was not clear what the actual defect was that caused sickling. Various experiments, as described at the end of Part I, indirectly narrowed down the site of the defect to the hemoglobin molecule.<br>
  <br></p>
- The most direct evidence that mutation affected the hemoglobin molecule came from a then-new procedure known as electrophoresis, a method of separating complex mixtures of large molecules by means of an electric current. To view and electrphoresis apparatus in progress, click here.When hemoglobin from people with severe sickle cell anemia, sickle cell trait, and normal red blood cells was subjected to electrophoresis, the following interesting results were obtained.<br>
- <img src="electrophoresis.jpg"><br>
+ <p>The most direct evidence that mutation affected the hemoglobin molecule came from a then-new procedure known as electrophoresis, a method of separating complex mixtures of large molecules by means of an electric current. To view and electrphoresis apparatus in progress, click here.When hemoglobin from people with severe sickle cell anemia, sickle cell trait, and normal red blood cells was subjected to electrophoresis, the following interesting results were obtained.<p><br>
+ <img src="electrophoresis.jpg" alt="electrophoresis gel showing different genotypes">
+
+<br>
 <p>It was clear that the hemoglobin molecules of persons with sickle cell anemia migrated at a different rate, and thus ended up at a different place on the gel, from the hemoglobin of normal persons (diagram, parts a and b). What was even more interesting was the observation that individuals sickle cell trait had about half normal and half sickle cell hemoglobin, each type making up 50% of the contents of any red blood cell (diagram part c). To confirm this latter conclusion, the electrophoretic profile of people with sickle cell trait could be duplicated simply by mixing sickle cell and normal hemoglobin together and running them independently on an electrophoretic gel (diagram part d). These results fit perfectly with an interpretation of the disease as inherited in a simple Mendelian fashion showing incomplete dominance. Here, then, was the first verified case of a genetic disease that could be localized to a defect in the structure of a specific protein molecule. Sickle cell anemia thus became the first in a long line of what have come to be called molecular diseases. Thousands of such diseases (most of them quite rare), including over 150 mutants of hemoglobin alone, are now known.
 
 </p>
 <h3>Sickle Cell and Normal Hemoglobin</h3>
-<p>IBut what was the actual defect in the sickle cell hemoglobin? Although we will investigate this question in more detail in a later case study (Web Page on Protein Structure), for now it will be helpful at least to outline the background of the discovery of just what it was that made sickle cell hemoglobin different from normal hemoglobin. It is the story of one of the first identifications of the molecular basis of a disease.<br><br>
+<p>But what was the actual defect in the sickle cell hemoglobin? Although we will investigate this question in more detail in a later case study (Web Page on Protein Structure), for now it will be helpful at least to outline the background of the discovery of just what it was that made sickle cell hemoglobin different from normal hemoglobin. It is the story of one of the first identifications of the molecular basis of a disease.<br><br>
 
 Again, Linus Pauling at Caltech, one of the most productive and imaginative of twentieth-century biological chemists (with co-workers Harvey Itano, a graduate of St. Louis University Medical School, I.C. Wells and S.J. Singer) turned his attention to determining the actual difference between normal and sickle cell hemoglobin molecules. Breaking the protein molecules down into shorter fragments called peptides, Pauling and co-workers subjected these fragments to another separatory technique called paper chromatography.<br><br>
 
@@ -25,27 +51,37 @@ When this procedure is applied to samples of normal and mutant (sickle) hemoglob
 <h3>Discovering the Difference Between Normal and Sickle-Cell Hemoglobin</h3><br>
 <img src="hemo.jpg"><br>
 <p>In overall structure, as we have already learned, a complete hemoglobin molecule consists of four separate polypeptide chains (i.e., each a long string, or polymer, of amino acids joined together end-to-end) of two types, designated the alpha and beta chains. The two a chains are alike (meaning they have the exact same sequence of amino acids), while the two beta chains are also alike.<br><br>
-<form>
-  1. Which part of the blood is affected in sickle cell disease?<br>
-  <input type="radio" name="prob1" value=""> White blood cells<br>
-  <input type="radio" name="prob1" value=""> Hemoglobin<br>
-  <input type="radio" name="gprob1" value=""> Red blood cell membrane<br>
-  <input type="radio" name="gprob1" value=""> Platelets<br>
-  <input type="submit" name=""><br>
-</form><br>
-<form>
-  2. The hemoglobin in patients with sickle cell disease is of the HbS type.<br>
-  <input type="radio" name="prob2" value=""> True<br>
-  <input type="radio" name="prob2" value=""> False<br>
-  <input type="submit" name="">
-</form><br>
-<form>
-  3. People with sickle cell trait suffer from sever manifestations of the disease.<br>
-  <input type="radio" name="prob3" value=""> True<br>
-  <input type="radio" name="prob3" value=""> False<br>
-  <input type="submit" name="">
-</form>
+<form name="quiz">
+  <fieldset class="question">
+  <p>1. Which part of the blood is affected in sickle cell disease?<p>
+  <input type="radio" name="q1a1" class="answer" name="q1" data-correct="false" value="White Blood Cells" /><label for="q1a1"> White blood cells</label><br>
+  <input type="radio" name="q1a2" class="answer" name="q1" data-correct="true" value="Hemoglobin" /><label for="q1a2"> Hemoglobin</label><br>
+  <input type="radio" name="q1a3" class="answer" name="q1" data-correct="false" value="Red Blood Cell Membrane" /><label for="q1a3"> Red Blood Cell Membrane</label><br>
+  <input type="radio" name="q1a4" class="answer" name="q1" data-correct="false" value="Platelets" /><label for="q1a4"> Platelets</label>
+  </fieldset>
 
+  <fieldset class="question">
+  <p>2. The hemoglobin in patients with sickle cell disease is of the HbS type.<p>
+  <input type="radio" name="q2a1" class="answer" name="q2" data-correct="true" value="True" /><label for="q2a1"> True</label><br>
+   <input type="radio" name="q2a2" class="answer" name="q2" data-correct="false" value="False" /><label for="q2a2"> False</label><br>
+  </fieldset>
+
+<fieldset class="question">
+  <p>3. People with sickle cell trait suffer from sever manifestations of the disease.<p>
+  <input type="radio" name="q3a1" class="answer" name="q3" data-correct="false" value="True" /><label for="q3a1"> True</label><br>
+   <input type="radio" name="q3a2" class="answer" name="q3" data-correct="true" value="False" /><label for="q3a2"> False</label><br>
+  </fieldset>
+  <fieldset>
+        <input type="button" id="calc" value="Get score" />
+        <input type="reset" value="Clear" />
+    </fieldset>
+    <div>
+        <label for="percentage">Score = </label><input type=text size=15 id="percentage" name="percentage" /><br />
+        <label for="solutions">Correct answers:</label><textarea id="solutions" name="solutions" wrap="virtual" rows="5" cols="10"></textarea>
+    </div>
+</form>
+</form>
+   
 
  </body>
 </html>
